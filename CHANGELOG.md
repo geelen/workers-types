@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.14.2
+
+### Patch Changes
+
+- [#259](https://github.com/cloudflare/workers-types/pull/259) [`38b7e0f`](https://github.com/cloudflare/workers-types/commit/38b7e0fba83f01654a00b0d805cd01211a419f3d) Thanks [@vlovich](https://github.com/vlovich)! - Fix DurableObject transaction `get` to properly return `Promise<T | undefined>` instead of `Promise<T>`
+
 ## 3.14.1
 
 ### Patch Changes
